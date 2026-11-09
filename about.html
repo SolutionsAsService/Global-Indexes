@@ -15,7 +15,7 @@
   <p class="lede">These are published indexes as last recorded in an open archive, not live feeds. The newest data point on this site is from <span data-fig="maxyear">&ndash;</span> and the oldest index ends in <span data-fig="minyear">&ndash;</span>. Nothing here is a current measurement.</p>
 
   <h2>What is on the site</h2>
-  <div class="scroll" tabindex="0" role="region" aria-label="Table of indexes, scrolls sideways"><table class="rk" id="src"><thead><tr><th scope="col">Index</th><th scope="col">Source</th><th scope="col">Years</th><th scope="col" class="n">Countries (last year)</th><th scope="col">Direction</th></tr></thead><tbody></tbody></table></div>
+  <div class="scroll" tabindex="0" role="region" aria-label="Table of indexes, scrolls sideways"><table class="rk" id="src"><caption class="sr">The indexes on this site with their sources, years, coverage and direction</caption><thead><tr><th scope="col">Index</th><th scope="col">Source</th><th scope="col">Years</th><th scope="col" class="n">Countries (last year)</th><th scope="col">Direction</th></tr></thead><tbody></tbody></table></div>
   <p class="fine">Each file is <code>{ "Country": { "Year": { "Score": 0, "Rank": 0 } } }</code>, one file per index at the top of the repository, listed in <code>manifest.json</code>.</p>
 
   <h2>Not "non-economic"</h2>
@@ -25,13 +25,19 @@
   <p>Fourteen datasets were sought in the archive. Eight are used. Five exist only as empty (0-byte) files: the Economist Intelligence Unit Democracy Index, Varieties of Democracy, the Bertelsmann Transformation Index, Polity 5 and the OECD trust in government series. One, Freedom House's Freedom of the Press, is a three-value category (free, partly free, not free) and not a score, so it cannot be ranked. This is why the democracy and rights coverage is a satisfaction survey and a transparency measure rather than the more common regime indexes.</p>
   <p>The World Press Freedom Index file that came with this repository is on the Rankings page, marked unverified, and is left out of every cross-index view. See the note on that page.</p>
 
+  <h2>Whose idea of better</h2>
+  <p>Ranking countries on one number each assumes that a higher or lower number is better, and that the indexes' makers agree with each other and with you. These come from development, governance and public-health institutions and academic projects, and they share a view of what a good society measures: low corruption, high longevity, equality between women and men, open government. Other societies value other things, and some of what matters most is not measured at all. Several of these indexes are surveys of perception, not counts. The death rate from violence includes conflict, and a low position can reflect war, data quality or both.</p>
+
+  <h2>Names, and who is listed</h2>
+  <p>Countries and territories appear under the names the sources use, with fuller forms where the archive had dropped them (Timor-Leste, C&ocirc;te d'Ivoire, S&atilde;o Tom&eacute; and Pr&iacute;ncipe, Democratic Republic of the Congo). Hong Kong, Taiwan, Palestine, Kosovo and North Korea are listed where the sources list them; being listed is not a statement about status. Non-sovereign territories in the source files are left out so they do not sit in a ranking's denominator: American Samoa, Bermuda, Greenland, Guam, Northern Mariana Islands, Puerto Rico, the US Virgin Islands, Northern Cyprus, Crimea, Somaliland, and the defunct Transkei, South Yemen and East Germany. Regions, income groups and the world total are also dropped.</p>
+
   <h2>How positions are computed</h2>
   <ul>
-    <li><strong>Rank</strong> is computed per index and year, among the countries that index covers in that year. 1 is best by the index's own direction. Countries with the same stored score share the lower rank.</li>
+    <li><strong>Rank</strong> is computed per index and year, among the countries that index covers in that year. 1 is best by the index's own direction. Countries with the same stored score share the best (smallest) of the rank numbers they span, and are marked = where shown. Hunger's 2.5 is the index's "less than 5" category, so many countries share its top rank.</li>
     <li><strong>Position</strong> on the home page and in Compare is a percentile: 100 &times; (n &minus; rank) &divide; (n &minus; 1), where n is the number of countries the index covers that year. 100 is best, 0 is worst.</li>
     <li><strong>Each index uses its own last year.</strong> The year and n are printed beside every position. Because years and country sets differ, positions on different indexes are not on a common footing, and there is no overall score or average.</li>
     <li><strong>Not covered</strong> means a country is absent from that index. It does not mean a good or bad result. Hunger, for example, covers 128 countries and many wealthy countries are not among them.</li>
-    <li><strong>Names and territories.</strong> One spelling per country (for example Czechia, Eswatini, North Macedonia, South Korea). Regions, income groups and non-sovereign territories are dropped so they do not sit in a denominator.</li>
+    <li><strong>Counts of harm.</strong> The hunger index and the death rate from violence are shown with the score first, are left out of the "highest position" sentence on the home page, and have no list of movers, so that a count of harm is not presented as a contest.</li>
     <li><strong>Agreement</strong> on the Compare page is a Spearman rank correlation over countries both indexes cover. It describes how orderings line up and says nothing about cause.</li>
   </ul>
 

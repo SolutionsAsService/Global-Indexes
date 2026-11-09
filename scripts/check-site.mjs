@@ -95,7 +95,7 @@ const norm = (s) => s.toLowerCase().replace(/[^a-z]/g, '')
 const byNorm = {}
 for (const c of nameSeen.keys()) (byNorm[norm(c)] ||= []).push(c)
 for (const v of Object.values(byNorm)) if (v.length > 1) bad(`country spelled two ways: ${v.join(' / ')}`)
-for (const n of ['Czech Republic', 'Swaziland', 'Macedonia', 'Ivory Coast', 'Korea', 'Guam', 'World']) if (nameSeen.has(n)) bad(`"${n}" should have been renamed or dropped`)
+for (const n of ['Czech Republic', 'Swaziland', 'Macedonia', 'Ivory Coast', 'Cote d\'Ivoire', 'Timor', 'Sao Tome and Principe', 'Democratic Republic of Congo', 'Korea', 'Guam', 'World']) if (nameSeen.has(n)) bad(`"${n}" should have been renamed or dropped`)
 
 if (problems.length) { console.error(problems.join('\n')); process.exit(1) }
 console.log(`OK: ${pages.length} pages, ${manifest.indexes.length} indexes, ${Object.keys(summary).length} countries in summary; links, figures, ranks and names agree`)

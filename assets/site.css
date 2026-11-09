@@ -1,7 +1,7 @@
 /* Global Indexes. Tokens first; dark mode redefines the same names. */
 :root {
   --bg: #efe9dc; --paper: #f8f4ea; --ink: #111111; --ink2: #4a4741; --rule: #cdc4ae; --focus: #111111;
-  --hot: #c8321a; --cool: #0a6670; --faint: #b9b09b; --on-hot: #ffffff;
+  --hot: #b32a13; --cool: #0a6670; --faint: #b9b09b; --on-hot: #ffffff;
   --display: Impact, Haettenschweiler, "Franklin Gothic Heavy", "Arial Narrow Bold", "Arial Black", sans-serif;
   --label: "Arial Narrow", "Franklin Gothic Medium", "Roboto Condensed", system-ui, sans-serif;
   --ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
@@ -69,7 +69,10 @@ code { font-family: var(--mono); font-size: .88em; background: var(--paper); bor
 svg text { font-family: var(--label); fill: var(--ink); }
 #pc { display: block; width: 100%; height: auto; touch-action: manipulation; }
 #pc .axis { stroke: var(--ink); stroke-width: 2; }
-#pc .axlab { font: 700 12px var(--label); text-transform: uppercase; letter-spacing: .05em; }
+#pc .axlab { font: 700 12px var(--label); text-transform: uppercase; letter-spacing: .05em; text-decoration: underline; text-underline-offset: 3px; }
+#pc a:hover .axlab, #pc a:focus-visible .axlab, #pc a:hover .axnum { fill: var(--hot); }
+#pc .axnum { font: 700 14px var(--label); text-decoration: underline; }
+#pc .axend { font: 700 10px var(--mono); fill: var(--ink); }
 #pc .axyr { font: 11px var(--mono); fill: var(--ink2); }
 #pc .line { fill: none; stroke: var(--faint); stroke-width: 1; opacity: .55; }
 #pc .line.on { stroke: var(--hot); stroke-width: 3.5; opacity: 1; }
@@ -83,7 +86,7 @@ svg text { font-family: var(--label); fill: var(--ink); }
 @media (max-width: 639px) {
   .hero h1 { font-size: 2.4rem; }
   .hero h1 .brk { display: inline; }
-  .hero .lede { display: none; }
+  .hero .lede { font-size: .92rem; margin: 4px 0 0; }
   .picker .grow { flex: 1 1 150px; }
   .picker .grow input { width: 100%; min-width: 0; }
 }
@@ -141,3 +144,22 @@ dl.facts dd { margin: 2px 0 0; }
 #pc .line.hov { stroke: var(--ink); stroke-width: 2.5; opacity: 1; }
 @media print { header.site nav, .tools, .picker { display: none; } }
 @media (forced-colors: active) { #pc .line.on, #pc .line.on2 { stroke: Highlight; } #pc .line { stroke: GrayText; } }
+
+.lede .short { display: none; }
+@media (max-width: 639px) { .lede .long { display: none; } .lede .short { display: inline; } }
+.axkey { list-style: none; margin: 6px 2px 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px 10px; font-size: .82rem; }
+.axkey a { display: block; text-decoration: none; padding: 7px 0; min-height: 44px; }
+.axkey a:hover { text-decoration: underline; }
+.axkey b { display: inline-block; min-width: 1.4em; font: 700 .9rem var(--mono); color: var(--hot); }
+.axkey small { display: block; color: var(--ink2); font-size: .72rem; margin-left: 1.6em; }
+@media (min-width: 640px) { .axkey { display: none; } }
+@media (forced-colors: active) { #pc .line.on2 { stroke: LinkText; } #pc .line { stroke-width: 1px; stroke: GrayText; } }
+
+.scroll { position: relative; }
+table.rk thead th { position: sticky; top: 0; background: var(--paper); z-index: 1; box-shadow: 0 1px 0 var(--rule); }
+table.rk td, table.rk th { height: 44px; }
+table.rk th[scope="row"] { font-weight: 600; text-transform: none; letter-spacing: 0; font-family: var(--ui); font-size: .92rem; color: var(--ink); }
+table.rk th[scope="row"] a { display: block; padding: 12px 0; min-height: 44px; min-width: 44px; }
+.rows li b a, .tiles a { min-height: 44px; }
+.rows li b a { display: inline-block; padding: 8px 0; }
+.rows li:has(.v) { min-height: 56px; }

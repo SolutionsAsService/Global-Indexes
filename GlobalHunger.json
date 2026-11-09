@@ -161,12 +161,6 @@
     "2006": { "Score": 5.5, "Rank": 10 },
     "2000": { "Score": 7.0, "Rank": 11 }
   },
-  "Cote d'Ivoire": {
-    "2021": { "Score": 22.3, "Rank": 86 },
-    "2012": { "Score": 30.0, "Rank": 98 },
-    "2006": { "Score": 37.1, "Rank": 99 },
-    "2000": { "Score": 33.3, "Rank": 77 }
-  },
   "Croatia": {
     "2021": { "Score": 2.5, "Rank": 1 },
     "2012": { "Score": 2.5, "Rank": 1 },
@@ -179,7 +173,13 @@
     "2006": { "Score": 2.5, "Rank": 1 },
     "2000": { "Score": 2.5, "Rank": 1 }
   },
-  "Democratic Republic of Congo": {
+  "Côte d'Ivoire": {
+    "2021": { "Score": 22.3, "Rank": 86 },
+    "2012": { "Score": 30.0, "Rank": 98 },
+    "2006": { "Score": 37.1, "Rank": 99 },
+    "2000": { "Score": 33.3, "Rank": 77 }
+  },
+  "Democratic Republic of the Congo": {
     "2021": { "Score": 39.0, "Rank": 120 },
     "2012": { "Score": 42.3, "Rank": 114 },
     "2006": { "Score": 45.3, "Rank": 109 },
@@ -646,7 +646,7 @@
     "2006": { "Score": 12.3, "Rank": 40 },
     "2000": { "Score": 18.5, "Rank": 49 }
   },
-  "Timor": {
+  "Timor-Leste": {
     "2021": { "Score": 32.4, "Rank": 116 },
     "2012": { "Score": 36.2, "Rank": 111 },
     "2006": { "Score": 46.1, "Rank": 110 }

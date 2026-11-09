@@ -38,6 +38,11 @@ ALIASES = {
     "Ivory Coast": "Cote d'Ivoire", "Micronesia (country)": "Micronesia", "Federated States of Micronesia": "Micronesia",
     "East Timor": "Timor", "Burma": "Myanmar",
 }
+# Official or fuller forms for display, applied after aliases (the archive drops diacritics and uses short forms).
+DISPLAY = {
+    "Timor": "Timor-Leste", "Cote d'Ivoire": "C\u00f4te d'Ivoire", "Sao Tome and Principe": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "Democratic Republic of Congo": "Democratic Republic of the Congo",
+}
 
 # id, file, dataset folder in the OWID archive, value column, display names, direction, scale note, topic, notes
 INDEXES = [
@@ -55,8 +60,8 @@ INDEXES = [
          notes="Loss in potential human development from disparity between women and men. Archive note: 1995 values use parliamentary seat shares from 1997."),
     dict(id="hunger", file="GlobalHunger.json", folder="Global Hunger Index (2021)",
          name="Global Hunger Index", short="Hunger", source="Concern Worldwide and Welthungerhilfe", source_url="https://www.globalhungerindex.org/download/all.html",
-         better="lower", scale="0 to 100; higher means more hunger", topic="Wellbeing",
-         notes="Four indicators combined: undernourishment, child wasting, child stunting, child mortality. Covers 128 countries in a few years only."),
+         better="lower", scale="0 to 100; higher means more hunger", topic="Wellbeing", harm=True,
+         notes="Four indicators combined: undernourishment, child wasting, child stunting, child mortality. Covers 128 countries in a few years only; the archive does not say why other countries are missing. A score of 2.5 is the index's \u201cless than 5\u201d category, so many countries share the top rank."),
     dict(id="transparency", file="GovernmentTransparency.json", folder="Government Transparency index - Hollyer et al. (2014)",
          name="Government Transparency Index", short="Transparency", source="Hollyer, Rosendorff and Vreeland (2014)", source_url="http://hrvtransparency.org/",
          better="higher", scale="A modelled score, roughly -10 to 10; higher is more transparent", topic="Governance",
@@ -67,7 +72,7 @@ INDEXES = [
          notes="Estimates for a person born in the given year."),
     dict(id="violence", file="ViolentDeaths.json", folder="Mortality from all forms of violence  (IHME (2016))", column=2,
          name="Death rate from violence", short="Violence", source="IHME, Global Burden of Disease 2016, amended by Our World in Data", source_url="http://ghdx.healthdata.org/gbd-results-tool",
-         better="lower", scale="Age-standardised deaths from all forms of violence (the archive does not state the unit); higher means more deaths", topic="Safety",
+         better="lower", scale="Age-standardised deaths from all forms of violence (the archive does not state the unit); higher means more deaths", topic="Safety", harm=True,
          notes="Interpersonal violence, conflict and terrorism, and executions and police conflict. Rwanda 1994 is 8,132, the genocide year, and compresses any scale that includes it."),
     dict(id="satisfaction", file="DemocraticSatisfaction.json", folder="Democratic satisfaction - Claassen", column=2,
          name="Satisfaction with democracy", short="Democratic satisfaction", source="Claassen (2022), via Our World in Data", source_url="http://chrisclaassen.com/data.html",
@@ -105,7 +110,7 @@ def build_index(ix):
             year, val = int(r[1]), round(float(r[col]), 4)
         except ValueError:
             continue
-        name = ALIASES.get(r[0], r[0])
+        name = DISPLAY.get(ALIASES.get(r[0], r[0]), ALIASES.get(r[0], r[0]))
         have = data.setdefault(name, {})
         if year in have and name != r[0]:
             if have[year] != val:
@@ -142,7 +147,9 @@ def describe(ix, data):
     years = sorted({int(y) for v in data.values() for y in v})
     latest = str(years[-1])
     m = {k: ix[k] for k in ("id", "file", "name", "short", "source", "source_url", "better", "scale", "topic", "notes")}
-    m.update(verified=ix.get("verified", True), first_year=years[0], last_year=years[-1], years=years,
+    m["harm"] = bool(ix.get("harm"))  # counts harm (deaths, hunger): the front end shows the score first and does not name a "best" or "worst" or list movers
+    allv = [p["Score"] for v in data.values() for p in v.values()]
+    m.update(min_score=min(allv), max_score=max(allv), verified=ix.get("verified", True), first_year=years[0], last_year=years[-1], years=years,
              countries=len(data), countries_latest=sum(1 for v in data.values() if latest in v))
     return m
 
@@ -158,7 +165,8 @@ def write_summary(manifest):
         for c, v in d.items():
             if y in v:
                 r = v[y]["Rank"]
-                out.setdefault(c, {})[m["id"]] = {"y": m["last_year"], "s": v[y]["Score"], "r": r, "n": n, "p": round(100 * (n - r) / (n - 1), 1)}
+                tied = sum(1 for w in d.values() if y in w and w[y]["Rank"] == r)
+                out.setdefault(c, {})[m["id"]] = {"y": m["last_year"], "s": v[y]["Score"], "r": r, "n": n, "p": round(100 * (n - r) / (n - 1), 1), "t": tied}
     json.dump(out, open(os.path.join(ROOT, "summary.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 
 

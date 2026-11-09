@@ -328,15 +328,6 @@
     "2013": { "Score": 53.0, "Rank": 48 },
     "2012": { "Score": 54.0, "Rank": 47 }
   },
-  "Cote d'Ivoire": {
-    "2018": { "Score": 35.0, "Rank": 105 },
-    "2017": { "Score": 36.0, "Rank": 103 },
-    "2016": { "Score": 34.0, "Rank": 108 },
-    "2015": { "Score": 32.0, "Rank": 106 },
-    "2014": { "Score": 32.0, "Rank": 114 },
-    "2013": { "Score": 27.0, "Rank": 135 },
-    "2012": { "Score": 29.0, "Rank": 129 }
-  },
   "Croatia": {
     "2018": { "Score": 48.0, "Rank": 60 },
     "2017": { "Score": 49.0, "Rank": 57 },
@@ -373,7 +364,16 @@
     "2013": { "Score": 48.0, "Rank": 56 },
     "2012": { "Score": 49.0, "Rank": 53 }
   },
-  "Democratic Republic of Congo": {
+  "Côte d'Ivoire": {
+    "2018": { "Score": 35.0, "Rank": 105 },
+    "2017": { "Score": 36.0, "Rank": 103 },
+    "2016": { "Score": 34.0, "Rank": 108 },
+    "2015": { "Score": 32.0, "Rank": 106 },
+    "2014": { "Score": 32.0, "Rank": 114 },
+    "2013": { "Score": 27.0, "Rank": 135 },
+    "2012": { "Score": 29.0, "Rank": 129 }
+  },
+  "Democratic Republic of the Congo": {
     "2018": { "Score": 20.0, "Rank": 161 },
     "2017": { "Score": 21.0, "Rank": 161 },
     "2016": { "Score": 21.0, "Rank": 156 },
@@ -1203,15 +1203,6 @@
     "2013": { "Score": 62.0, "Rank": 33 },
     "2012": { "Score": 62.0, "Rank": 35 }
   },
-  "Sao Tome and Principe": {
-    "2018": { "Score": 46.0, "Rank": 64 },
-    "2017": { "Score": 46.0, "Rank": 64 },
-    "2016": { "Score": 46.0, "Rank": 62 },
-    "2015": { "Score": 42.0, "Rank": 66 },
-    "2014": { "Score": 42.0, "Rank": 75 },
-    "2013": { "Score": 42.0, "Rank": 71 },
-    "2012": { "Score": 42.0, "Rank": 71 }
-  },
   "Saudi Arabia": {
     "2018": { "Score": 49.0, "Rank": 58 },
     "2017": { "Score": 49.0, "Rank": 57 },
@@ -1386,6 +1377,15 @@
     "2013": { "Score": 17.0, "Rank": 167 },
     "2012": { "Score": 26.0, "Rank": 143 }
   },
+  "São Tomé and Príncipe": {
+    "2018": { "Score": 46.0, "Rank": 64 },
+    "2017": { "Score": 46.0, "Rank": 64 },
+    "2016": { "Score": 46.0, "Rank": 62 },
+    "2015": { "Score": 42.0, "Rank": 66 },
+    "2014": { "Score": 42.0, "Rank": 75 },
+    "2013": { "Score": 42.0, "Rank": 71 },
+    "2012": { "Score": 42.0, "Rank": 71 }
+  },
   "Taiwan": {
     "2018": { "Score": 63.0, "Rank": 31 },
     "2017": { "Score": 63.0, "Rank": 29 },
@@ -1422,7 +1422,7 @@
     "2013": { "Score": 35.0, "Rank": 101 },
     "2012": { "Score": 37.0, "Rank": 87 }
   },
-  "Timor": {
+  "Timor-Leste": {
     "2018": { "Score": 35.0, "Rank": 105 },
     "2017": { "Score": 38.0, "Rank": 91 },
     "2016": { "Score": 35.0, "Rank": 101 },

@@ -3,7 +3,7 @@
 (function () {
   'use strict';
   var REPO = 'https://github.com/SolutionsAsService/Global-Indexes';
-  var NAV = [['countries', 'country.html', 'Countries'], ['rankings', 'rankings.html', 'Rankings'], ['compare', 'compare.html', 'Compare'], ['about', 'about.html', 'Sources']];
+  var NAV = [['countries', 'country.html', 'Country'], ['rankings', 'rankings.html', 'Rankings'], ['compare', 'compare.html', 'Compare'], ['about', 'about.html', 'Sources']];
   var TOPIC_ORDER = ['Governance', 'Wellbeing', 'Society', 'Safety']; // axis order on the landing chart
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }

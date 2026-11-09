@@ -18,11 +18,12 @@
     <div><label for="c">Highlight</label><input id="c" list="clist" autocomplete="off" placeholder="Optional country"></div>
     <datalist id="clist"></datalist>
   </div>
+  <p class="fine" id="msg" role="status" style="color:var(--hot);min-height:0"></p>
   <div class="grid2">
     <div class="panel chart"><svg id="sc" role="img" aria-label="Scatter of countries on two indexes"></svg><p class="fine" id="axes"></p></div>
     <aside>
-      <div class="panel"><h2>How closely they agree</h2><p id="stat" aria-live="polite"></p><p class="fine">Position runs from 0 (worst) to 100 (best) for each index, so that up and right are always better. The agreement figure is a rank correlation (Spearman) over the countries both indexes cover. It describes how the two orderings line up; it does not say that one thing causes another.</p></div>
-      <div class="panel" style="margin-top:14px"><h2>Furthest apart</h2><p class="fine">Countries whose positions on the two indexes differ most.</p><ol class="rows" id="far"></ol></div>
+      <div class="panel"><h2>How closely they agree</h2><p id="stat" aria-live="polite"></p><p class="fine">Position runs from 0 (lowest rank) to 100 (highest rank) for each index, so up and right always mean a higher rank. The figure is a rank correlation (Spearman) over the countries with a record in both indexes. It describes how the two orderings line up; it does not say that one thing causes another, and the two indexes may not measure related things at all.</p></div>
+      <div class="panel" style="margin-top:14px"><h2>Furthest apart</h2><p class="fine">Countries whose positions on the two indexes differ most, as a gap in percentile points (0 to 100).</p><ol class="rows" id="far"></ol></div>
     </aside>
   </div>
 </main>
