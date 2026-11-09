@@ -1,0 +1,729 @@
+{
+  "Afghanistan": {
+    "2021": { "Score": 28.3, "Rank": 111 },
+    "2012": { "Score": 34.3, "Rank": 105 },
+    "2006": { "Score": 42.7, "Rank": 106 },
+    "2000": { "Score": 50.9, "Rank": 108 }
+  },
+  "Albania": {
+    "2021": { "Score": 6.2, "Rank": 26 },
+    "2012": { "Score": 8.8, "Rank": 33 },
+    "2006": { "Score": 15.9, "Rank": 53 },
+    "2000": { "Score": 20.7, "Rank": 56 }
+  },
+  "Algeria": {
+    "2021": { "Score": 6.9, "Rank": 32 },
+    "2012": { "Score": 8.9, "Rank": 34 },
+    "2006": { "Score": 11.7, "Rank": 36 },
+    "2000": { "Score": 14.5, "Rank": 35 }
+  },
+  "Angola": {
+    "2021": { "Score": 26.0, "Rank": 99 },
+    "2012": { "Score": 27.8, "Rank": 90 },
+    "2006": { "Score": 46.9, "Rank": 111 },
+    "2000": { "Score": 65.0, "Rank": 112 }
+  },
+  "Argentina": {
+    "2021": { "Score": 5.3, "Rank": 20 },
+    "2012": { "Score": 5.2, "Rank": 19 },
+    "2006": { "Score": 5.6, "Rank": 11 },
+    "2000": { "Score": 6.4, "Rank": 10 }
+  },
+  "Armenia": {
+    "2021": { "Score": 7.2, "Rank": 33 },
+    "2012": { "Score": 10.4, "Rank": 43 },
+    "2006": { "Score": 13.3, "Rank": 44 },
+    "2000": { "Score": 19.3, "Rank": 51 }
+  },
+  "Azerbaijan": {
+    "2021": { "Score": 7.5, "Rank": 34 },
+    "2012": { "Score": 10.6, "Rank": 46 },
+    "2006": { "Score": 15.9, "Rank": 53 },
+    "2000": { "Score": 25.0, "Rank": 64 }
+  },
+  "Bangladesh": {
+    "2021": { "Score": 19.1, "Rank": 78 },
+    "2012": { "Score": 28.6, "Rank": 92 },
+    "2006": { "Score": 28.9, "Rank": 79 },
+    "2000": { "Score": 34.0, "Rank": 79 }
+  },
+  "Belarus": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Benin": {
+    "2021": { "Score": 22.2, "Rank": 84 },
+    "2012": { "Score": 24.0, "Rank": 79 },
+    "2006": { "Score": 27.7, "Rank": 78 },
+    "2000": { "Score": 34.0, "Rank": 79 }
+  },
+  "Bolivia": {
+    "2021": { "Score": 12.7, "Rank": 58 },
+    "2012": { "Score": 15.6, "Rank": 63 },
+    "2006": { "Score": 23.3, "Rank": 69 },
+    "2000": { "Score": 27.7, "Rank": 70 }
+  },
+  "Bosnia and Herzegovina": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 6.7, "Rank": 16 },
+    "2000": { "Score": 9.3, "Rank": 17 }
+  },
+  "Botswana": {
+    "2021": { "Score": 23.2, "Rank": 90 },
+    "2012": { "Score": 24.3, "Rank": 81 },
+    "2006": { "Score": 26.2, "Rank": 75 },
+    "2000": { "Score": 26.7, "Rank": 69 }
+  },
+  "Brazil": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 5.5, "Rank": 21 },
+    "2006": { "Score": 7.4, "Rank": 20 },
+    "2000": { "Score": 11.5, "Rank": 28 }
+  },
+  "Bulgaria": {
+    "2021": { "Score": 6.1, "Rank": 24 },
+    "2012": { "Score": 7.8, "Rank": 26 },
+    "2006": { "Score": 8.1, "Rank": 23 },
+    "2000": { "Score": 8.6, "Rank": 15 }
+  },
+  "Burkina Faso": {
+    "2021": { "Score": 24.5, "Rank": 93 },
+    "2012": { "Score": 29.7, "Rank": 96 },
+    "2006": { "Score": 35.8, "Rank": 95 },
+    "2000": { "Score": 44.9, "Rank": 101 }
+  },
+  "Burundi": {
+    "2021": { "Score": 42.5, "Rank": 122 }
+  },
+  "Cambodia": {
+    "2021": { "Score": 17.0, "Rank": 71 },
+    "2012": { "Score": 24.2, "Rank": 80 },
+    "2006": { "Score": 27.1, "Rank": 76 },
+    "2000": { "Score": 41.1, "Rank": 94 }
+  },
+  "Cameroon": {
+    "2021": { "Score": 18.6, "Rank": 76 },
+    "2012": { "Score": 23.1, "Rank": 76 },
+    "2006": { "Score": 30.9, "Rank": 84 },
+    "2000": { "Score": 35.7, "Rank": 83 }
+  },
+  "Cape Verde": {
+    "2021": { "Score": 10.8, "Rank": 53 },
+    "2012": { "Score": 12.3, "Rank": 52 },
+    "2006": { "Score": 11.9, "Rank": 37 },
+    "2000": { "Score": 15.4, "Rank": 42 }
+  },
+  "Central African Republic": {
+    "2021": { "Score": 43.0, "Rank": 126 },
+    "2012": { "Score": 40.5, "Rank": 113 },
+    "2006": { "Score": 48.0, "Rank": 112 },
+    "2000": { "Score": 48.9, "Rank": 104 }
+  },
+  "Chad": {
+    "2021": { "Score": 39.6, "Rank": 121 },
+    "2012": { "Score": 45.7, "Rank": 115 },
+    "2006": { "Score": 51.2, "Rank": 113 },
+    "2000": { "Score": 50.8, "Rank": 107 }
+  },
+  "Chile": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "China": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 9.0, "Rank": 28 },
+    "2000": { "Score": 13.3, "Rank": 33 }
+  },
+  "Colombia": {
+    "2021": { "Score": 8.9, "Rank": 45 },
+    "2012": { "Score": 9.3, "Rank": 37 },
+    "2006": { "Score": 11.4, "Rank": 33 },
+    "2000": { "Score": 10.9, "Rank": 24 }
+  },
+  "Comoros": {
+    "2021": { "Score": 42.5, "Rank": 122 }
+  },
+  "Congo": {
+    "2021": { "Score": 30.3, "Rank": 113 },
+    "2012": { "Score": 28.5, "Rank": 91 },
+    "2006": { "Score": 34.6, "Rank": 94 },
+    "2000": { "Score": 34.9, "Rank": 82 }
+  },
+  "Costa Rica": {
+    "2021": { "Score": 5.3, "Rank": 20 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 5.5, "Rank": 10 },
+    "2000": { "Score": 7.0, "Rank": 11 }
+  },
+  "Cote d'Ivoire": {
+    "2021": { "Score": 22.3, "Rank": 86 },
+    "2012": { "Score": 30.0, "Rank": 98 },
+    "2006": { "Score": 37.1, "Rank": 99 },
+    "2000": { "Score": 33.3, "Rank": 77 }
+  },
+  "Croatia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Cuba": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Democratic Republic of Congo": {
+    "2021": { "Score": 39.0, "Rank": 120 },
+    "2012": { "Score": 42.3, "Rank": 114 },
+    "2006": { "Score": 45.3, "Rank": 109 },
+    "2000": { "Score": 50.6, "Rank": 106 }
+  },
+  "Djibouti": {
+    "2021": { "Score": 27.4, "Rank": 101 },
+    "2012": { "Score": 35.4, "Rank": 110 },
+    "2006": { "Score": 36.9, "Rank": 98 },
+    "2000": { "Score": 44.3, "Rank": 100 }
+  },
+  "Dominican Republic": {
+    "2021": { "Score": 8.0, "Rank": 37 },
+    "2012": { "Score": 10.2, "Rank": 42 },
+    "2006": { "Score": 13.2, "Rank": 42 },
+    "2000": { "Score": 15.1, "Rank": 39 }
+  },
+  "Ecuador": {
+    "2021": { "Score": 14.0, "Rank": 63 },
+    "2012": { "Score": 12.8, "Rank": 57 },
+    "2006": { "Score": 18.9, "Rank": 61 },
+    "2000": { "Score": 19.7, "Rank": 52 }
+  },
+  "Egypt": {
+    "2021": { "Score": 12.5, "Rank": 57 },
+    "2012": { "Score": 15.2, "Rank": 62 },
+    "2006": { "Score": 14.4, "Rank": 49 },
+    "2000": { "Score": 16.3, "Rank": 45 }
+  },
+  "El Salvador": {
+    "2021": { "Score": 8.9, "Rank": 45 },
+    "2012": { "Score": 10.4, "Rank": 43 },
+    "2006": { "Score": 12.0, "Rank": 38 },
+    "2000": { "Score": 14.7, "Rank": 37 }
+  },
+  "Estonia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Eswatini": {
+    "2021": { "Score": 17.0, "Rank": 71 },
+    "2012": { "Score": 21.8, "Rank": 71 },
+    "2006": { "Score": 23.2, "Rank": 68 },
+    "2000": { "Score": 24.5, "Rank": 63 }
+  },
+  "Ethiopia": {
+    "2021": { "Score": 24.1, "Rank": 92 },
+    "2012": { "Score": 33.5, "Rank": 103 },
+    "2006": { "Score": 43.4, "Rank": 107 },
+    "2000": { "Score": 53.5, "Rank": 109 }
+  },
+  "Fiji": {
+    "2021": { "Score": 8.6, "Rank": 41 },
+    "2012": { "Score": 8.1, "Rank": 28 },
+    "2006": { "Score": 9.0, "Rank": 28 },
+    "2000": { "Score": 9.6, "Rank": 18 }
+  },
+  "Gabon": {
+    "2021": { "Score": 16.6, "Rank": 69 },
+    "2012": { "Score": 18.6, "Rank": 66 },
+    "2006": { "Score": 20.2, "Rank": 64 },
+    "2000": { "Score": 21.0, "Rank": 57 }
+  },
+  "Gambia": {
+    "2021": { "Score": 17.6, "Rank": 74 },
+    "2012": { "Score": 22.1, "Rank": 73 },
+    "2006": { "Score": 27.5, "Rank": 77 },
+    "2000": { "Score": 29.0, "Rank": 73 }
+  },
+  "Georgia": {
+    "2021": { "Score": 6.3, "Rank": 28 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 8.8, "Rank": 26 },
+    "2000": { "Score": 12.3, "Rank": 31 }
+  },
+  "Ghana": {
+    "2021": { "Score": 14.9, "Rank": 65 },
+    "2012": { "Score": 17.9, "Rank": 65 },
+    "2006": { "Score": 22.0, "Rank": 67 },
+    "2000": { "Score": 28.4, "Rank": 71 }
+  },
+  "Guatemala": {
+    "2021": { "Score": 19.6, "Rank": 81 },
+    "2012": { "Score": 22.0, "Rank": 72 },
+    "2006": { "Score": 24.6, "Rank": 73 },
+    "2000": { "Score": 28.4, "Rank": 71 }
+  },
+  "Guinea": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  },
+  "Guinea-Bissau": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  },
+  "Guyana": {
+    "2021": { "Score": 10.7, "Rank": 52 },
+    "2012": { "Score": 12.1, "Rank": 51 },
+    "2006": { "Score": 15.6, "Rank": 52 },
+    "2000": { "Score": 17.1, "Rank": 46 }
+  },
+  "Haiti": {
+    "2021": { "Score": 32.8, "Rank": 117 },
+    "2012": { "Score": 35.2, "Rank": 109 },
+    "2006": { "Score": 43.6, "Rank": 108 },
+    "2000": { "Score": 42.0, "Rank": 96 }
+  },
+  "Honduras": {
+    "2021": { "Score": 12.8, "Rank": 59 },
+    "2012": { "Score": 13.8, "Rank": 60 },
+    "2006": { "Score": 19.6, "Rank": 62 },
+    "2000": { "Score": 21.8, "Rank": 58 }
+  },
+  "India": {
+    "2021": { "Score": 27.5, "Rank": 103 },
+    "2012": { "Score": 28.8, "Rank": 93 },
+    "2006": { "Score": 37.4, "Rank": 100 },
+    "2000": { "Score": 38.8, "Rank": 87 }
+  },
+  "Indonesia": {
+    "2021": { "Score": 18.0, "Rank": 75 },
+    "2012": { "Score": 23.0, "Rank": 75 },
+    "2006": { "Score": 29.5, "Rank": 81 },
+    "2000": { "Score": 26.1, "Rank": 67 }
+  },
+  "Iran": {
+    "2021": { "Score": 7.7, "Rank": 36 },
+    "2012": { "Score": 8.1, "Rank": 28 },
+    "2006": { "Score": 8.9, "Rank": 27 },
+    "2000": { "Score": 13.5, "Rank": 34 }
+  },
+  "Iraq": {
+    "2021": { "Score": 22.8, "Rank": 88 },
+    "2012": { "Score": 27.5, "Rank": 89 },
+    "2006": { "Score": 23.9, "Rank": 71 },
+    "2000": { "Score": 23.9, "Rank": 61 }
+  },
+  "Jamaica": {
+    "2021": { "Score": 8.6, "Rank": 41 },
+    "2012": { "Score": 9.1, "Rank": 35 },
+    "2006": { "Score": 9.0, "Rank": 28 },
+    "2000": { "Score": 8.6, "Rank": 15 }
+  },
+  "Jordan": {
+    "2021": { "Score": 8.3, "Rank": 39 },
+    "2012": { "Score": 8.5, "Rank": 32 },
+    "2006": { "Score": 8.1, "Rank": 23 },
+    "2000": { "Score": 10.8, "Rank": 23 }
+  },
+  "Kazakhstan": {
+    "2021": { "Score": 6.4, "Rank": 29 },
+    "2012": { "Score": 8.1, "Rank": 28 },
+    "2006": { "Score": 12.3, "Rank": 40 },
+    "2000": { "Score": 11.2, "Rank": 27 }
+  },
+  "Kenya": {
+    "2021": { "Score": 23.0, "Rank": 89 },
+    "2012": { "Score": 25.4, "Rank": 85 },
+    "2006": { "Score": 31.2, "Rank": 86 },
+    "2000": { "Score": 36.7, "Rank": 84 }
+  },
+  "Kuwait": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Kyrgyzstan": {
+    "2021": { "Score": 8.6, "Rank": 41 },
+    "2012": { "Score": 11.7, "Rank": 49 },
+    "2006": { "Score": 13.9, "Rank": 47 },
+    "2000": { "Score": 18.3, "Rank": 48 }
+  },
+  "Laos": {
+    "2021": { "Score": 19.5, "Rank": 80 },
+    "2012": { "Score": 25.7, "Rank": 86 },
+    "2006": { "Score": 31.9, "Rank": 88 },
+    "2000": { "Score": 44.1, "Rank": 99 }
+  },
+  "Latvia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 5.5, "Rank": 8 }
+  },
+  "Lebanon": {
+    "2021": { "Score": 9.7, "Rank": 49 },
+    "2012": { "Score": 12.3, "Rank": 52 },
+    "2006": { "Score": 13.2, "Rank": 42 },
+    "2000": { "Score": 11.6, "Rank": 29 }
+  },
+  "Lesotho": {
+    "2021": { "Score": 27.4, "Rank": 101 },
+    "2012": { "Score": 24.6, "Rank": 82 },
+    "2006": { "Score": 29.6, "Rank": 82 },
+    "2000": { "Score": 32.5, "Rank": 76 }
+  },
+  "Liberia": {
+    "2021": { "Score": 33.3, "Rank": 118 },
+    "2012": { "Score": 35.0, "Rank": 108 },
+    "2006": { "Score": 40.0, "Rank": 104 },
+    "2000": { "Score": 48.1, "Rank": 103 }
+  },
+  "Lithuania": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 2.5, "Rank": 1 },
+    "2000": { "Score": 2.5, "Rank": 1 }
+  },
+  "Madagascar": {
+    "2021": { "Score": 36.3, "Rank": 119 },
+    "2012": { "Score": 34.3, "Rank": 105 },
+    "2006": { "Score": 41.6, "Rank": 105 },
+    "2000": { "Score": 42.8, "Rank": 97 }
+  },
+  "Malawi": {
+    "2021": { "Score": 21.3, "Rank": 83 },
+    "2012": { "Score": 26.2, "Rank": 87 },
+    "2006": { "Score": 33.5, "Rank": 92 },
+    "2000": { "Score": 43.1, "Rank": 98 }
+  },
+  "Malaysia": {
+    "2021": { "Score": 12.8, "Rank": 59 },
+    "2012": { "Score": 12.4, "Rank": 54 },
+    "2006": { "Score": 13.7, "Rank": 45 },
+    "2000": { "Score": 15.4, "Rank": 42 }
+  },
+  "Mali": {
+    "2021": { "Score": 24.7, "Rank": 94 },
+    "2012": { "Score": 24.8, "Rank": 83 },
+    "2006": { "Score": 36.8, "Rank": 97 },
+    "2000": { "Score": 41.7, "Rank": 95 }
+  },
+  "Mauritania": {
+    "2021": { "Score": 22.6, "Rank": 87 },
+    "2012": { "Score": 23.6, "Rank": 78 },
+    "2006": { "Score": 28.9, "Rank": 79 },
+    "2000": { "Score": 31.9, "Rank": 75 }
+  },
+  "Mauritius": {
+    "2021": { "Score": 12.2, "Rank": 55 },
+    "2012": { "Score": 13.0, "Rank": 59 },
+    "2006": { "Score": 14.0, "Rank": 48 },
+    "2000": { "Score": 15.2, "Rank": 41 }
+  },
+  "Mexico": {
+    "2021": { "Score": 8.5, "Rank": 40 },
+    "2012": { "Score": 7.8, "Rank": 26 },
+    "2006": { "Score": 8.6, "Rank": 25 },
+    "2000": { "Score": 10.2, "Rank": 20 }
+  },
+  "Moldova": {
+    "2021": { "Score": 5.0, "Rank": 19 }
+  },
+  "Mongolia": {
+    "2021": { "Score": 6.1, "Rank": 24 },
+    "2012": { "Score": 12.8, "Rank": 57 },
+    "2006": { "Score": 23.4, "Rank": 70 },
+    "2000": { "Score": 30.2, "Rank": 74 }
+  },
+  "Montenegro": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 6.5, "Rank": 14 }
+  },
+  "Morocco": {
+    "2021": { "Score": 8.8, "Rank": 44 },
+    "2012": { "Score": 9.6, "Rank": 40 },
+    "2006": { "Score": 17.5, "Rank": 58 },
+    "2000": { "Score": 15.5, "Rank": 44 }
+  },
+  "Mozambique": {
+    "2021": { "Score": 31.3, "Rank": 114 },
+    "2012": { "Score": 31.5, "Rank": 101 },
+    "2006": { "Score": 38.2, "Rank": 101 },
+    "2000": { "Score": 48.0, "Rank": 102 }
+  },
+  "Myanmar": {
+    "2021": { "Score": 17.5, "Rank": 73 },
+    "2012": { "Score": 22.9, "Rank": 74 },
+    "2006": { "Score": 31.6, "Rank": 87 },
+    "2000": { "Score": 39.8, "Rank": 91 }
+  },
+  "Namibia": {
+    "2021": { "Score": 20.2, "Rank": 82 },
+    "2012": { "Score": 26.6, "Rank": 88 },
+    "2006": { "Score": 25.8, "Rank": 74 },
+    "2000": { "Score": 25.3, "Rank": 66 }
+  },
+  "Nepal": {
+    "2021": { "Score": 19.1, "Rank": 78 },
+    "2012": { "Score": 23.1, "Rank": 76 },
+    "2006": { "Score": 30.9, "Rank": 84 },
+    "2000": { "Score": 37.4, "Rank": 86 }
+  },
+  "Nicaragua": {
+    "2021": { "Score": 14.0, "Rank": 63 },
+    "2012": { "Score": 14.9, "Rank": 61 },
+    "2006": { "Score": 17.4, "Rank": 57 },
+    "2000": { "Score": 22.3, "Rank": 60 }
+  },
+  "Niger": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  },
+  "Nigeria": {
+    "2021": { "Score": 28.3, "Rank": 111 },
+    "2012": { "Score": 30.4, "Rank": 99 },
+    "2006": { "Score": 32.5, "Rank": 89 },
+    "2000": { "Score": 39.5, "Rank": 89 }
+  },
+  "North Korea": {
+    "2021": { "Score": 25.2, "Rank": 98 },
+    "2012": { "Score": 29.1, "Rank": 94 },
+    "2006": { "Score": 33.1, "Rank": 90 },
+    "2000": { "Score": 39.5, "Rank": 89 }
+  },
+  "North Macedonia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 7.7, "Rank": 21 },
+    "2000": { "Score": 7.5, "Rank": 13 }
+  },
+  "Oman": {
+    "2021": { "Score": 12.3, "Rank": 56 },
+    "2012": { "Score": 11.6, "Rank": 48 },
+    "2006": { "Score": 13.8, "Rank": 46 },
+    "2000": { "Score": 14.7, "Rank": 37 }
+  },
+  "Pakistan": {
+    "2021": { "Score": 24.7, "Rank": 94 },
+    "2012": { "Score": 32.1, "Rank": 102 },
+    "2006": { "Score": 33.1, "Rank": 90 },
+    "2000": { "Score": 36.7, "Rank": 84 }
+  },
+  "Panama": {
+    "2021": { "Score": 8.9, "Rank": 45 },
+    "2012": { "Score": 10.1, "Rank": 41 },
+    "2006": { "Score": 15.0, "Rank": 51 },
+    "2000": { "Score": 18.7, "Rank": 50 }
+  },
+  "Papua New Guinea": {
+    "2021": { "Score": 27.8, "Rank": 110 },
+    "2012": { "Score": 33.7, "Rank": 104 },
+    "2006": { "Score": 30.3, "Rank": 83 },
+    "2000": { "Score": 33.6, "Rank": 78 }
+  },
+  "Paraguay": {
+    "2021": { "Score": 7.5, "Rank": 34 },
+    "2012": { "Score": 9.5, "Rank": 38 },
+    "2006": { "Score": 11.6, "Rank": 35 },
+    "2000": { "Score": 11.7, "Rank": 30 }
+  },
+  "Peru": {
+    "2021": { "Score": 8.0, "Rank": 37 },
+    "2012": { "Score": 9.2, "Rank": 36 },
+    "2006": { "Score": 16.4, "Rank": 55 },
+    "2000": { "Score": 20.6, "Rank": 55 }
+  },
+  "Philippines": {
+    "2021": { "Score": 16.8, "Rank": 70 },
+    "2012": { "Score": 20.5, "Rank": 69 },
+    "2006": { "Score": 20.4, "Rank": 65 },
+    "2000": { "Score": 25.0, "Rank": 64 }
+  },
+  "Romania": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 5.0, "Rank": 16 },
+    "2006": { "Score": 5.9, "Rank": 12 },
+    "2000": { "Score": 7.9, "Rank": 14 }
+  },
+  "Russia": {
+    "2021": { "Score": 6.2, "Rank": 26 },
+    "2012": { "Score": 6.4, "Rank": 22 },
+    "2006": { "Score": 7.1, "Rank": 18 },
+    "2000": { "Score": 10.1, "Rank": 19 }
+  },
+  "Rwanda": {
+    "2021": { "Score": 26.4, "Rank": 100 },
+    "2012": { "Score": 31.0, "Rank": 100 },
+    "2006": { "Score": 38.3, "Rank": 102 },
+    "2000": { "Score": 49.3, "Rank": 105 }
+  },
+  "Saudi Arabia": {
+    "2021": { "Score": 6.8, "Rank": 30 },
+    "2012": { "Score": 8.2, "Rank": 31 },
+    "2006": { "Score": 12.1, "Rank": 39 },
+    "2000": { "Score": 11.0, "Rank": 25 }
+  },
+  "Senegal": {
+    "2021": { "Score": 16.3, "Rank": 68 },
+    "2012": { "Score": 19.2, "Rank": 67 },
+    "2006": { "Score": 24.1, "Rank": 72 },
+    "2000": { "Score": 34.0, "Rank": 79 }
+  },
+  "Serbia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 5.3, "Rank": 20 },
+    "2006": { "Score": 6.1, "Rank": 13 }
+  },
+  "Sierra Leone": {
+    "2021": { "Score": 31.3, "Rank": 114 },
+    "2012": { "Score": 34.7, "Rank": 107 },
+    "2006": { "Score": 52.7, "Rank": 114 },
+    "2000": { "Score": 57.7, "Rank": 110 }
+  },
+  "Slovakia": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 2.5, "Rank": 1 },
+    "2006": { "Score": 5.3, "Rank": 9 },
+    "2000": { "Score": 6.0, "Rank": 9 }
+  },
+  "Solomon Islands": {
+    "2021": { "Score": 18.8, "Rank": 77 },
+    "2012": { "Score": 20.2, "Rank": 68 },
+    "2006": { "Score": 18.2, "Rank": 60 },
+    "2000": { "Score": 20.0, "Rank": 53 }
+  },
+  "Somalia": {
+    "2021": { "Score": 50.8, "Rank": 128 },
+    "2012": { "Score": 65.1, "Rank": 116 },
+    "2006": { "Score": 57.9, "Rank": 115 },
+    "2000": { "Score": 58.1, "Rank": 111 }
+  },
+  "South Africa": {
+    "2021": { "Score": 12.9, "Rank": 61 },
+    "2012": { "Score": 12.7, "Rank": 56 },
+    "2006": { "Score": 17.6, "Rank": 59 },
+    "2000": { "Score": 18.1, "Rank": 47 }
+  },
+  "South Sudan": {
+    "2021": { "Score": 42.5, "Rank": 122 }
+  },
+  "Sri Lanka": {
+    "2021": { "Score": 16.0, "Rank": 67 },
+    "2012": { "Score": 20.6, "Rank": 70 },
+    "2006": { "Score": 20.0, "Rank": 63 },
+    "2000": { "Score": 21.9, "Rank": 59 }
+  },
+  "Sudan": {
+    "2021": { "Score": 25.1, "Rank": 97 },
+    "2012": { "Score": 29.8, "Rank": 97 }
+  },
+  "Suriname": {
+    "2021": { "Score": 10.4, "Rank": 51 },
+    "2012": { "Score": 10.4, "Rank": 43 },
+    "2006": { "Score": 11.4, "Rank": 33 },
+    "2000": { "Score": 15.1, "Rank": 39 }
+  },
+  "Syria": {
+    "2021": { "Score": 42.5, "Rank": 122 }
+  },
+  "Tajikistan": {
+    "2021": { "Score": 15.0, "Rank": 66 }
+  },
+  "Tanzania": {
+    "2021": { "Score": 24.7, "Rank": 94 },
+    "2012": { "Score": 29.1, "Rank": 94 },
+    "2006": { "Score": 33.6, "Rank": 93 },
+    "2000": { "Score": 40.6, "Rank": 92 }
+  },
+  "Thailand": {
+    "2021": { "Score": 11.7, "Rank": 54 },
+    "2012": { "Score": 12.4, "Rank": 54 },
+    "2006": { "Score": 12.3, "Rank": 40 },
+    "2000": { "Score": 18.5, "Rank": 49 }
+  },
+  "Timor": {
+    "2021": { "Score": 32.4, "Rank": 116 },
+    "2012": { "Score": 36.2, "Rank": 111 },
+    "2006": { "Score": 46.1, "Rank": 110 }
+  },
+  "Togo": {
+    "2021": { "Score": 23.7, "Rank": 91 },
+    "2012": { "Score": 25.3, "Rank": 84 },
+    "2006": { "Score": 36.5, "Rank": 96 },
+    "2000": { "Score": 39.1, "Rank": 88 }
+  },
+  "Trinidad and Tobago": {
+    "2021": { "Score": 8.9, "Rank": 45 },
+    "2012": { "Score": 10.8, "Rank": 47 },
+    "2006": { "Score": 11.3, "Rank": 32 },
+    "2000": { "Score": 11.0, "Rank": 25 }
+  },
+  "Tunisia": {
+    "2021": { "Score": 6.0, "Rank": 23 },
+    "2012": { "Score": 7.0, "Rank": 24 },
+    "2006": { "Score": 7.8, "Rank": 22 },
+    "2000": { "Score": 10.3, "Rank": 22 }
+  },
+  "Turkey": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 5.0, "Rank": 16 },
+    "2006": { "Score": 6.5, "Rank": 14 },
+    "2000": { "Score": 10.2, "Rank": 20 }
+  },
+  "Turkmenistan": {
+    "2021": { "Score": 9.7, "Rank": 49 },
+    "2012": { "Score": 11.9, "Rank": 50 },
+    "2006": { "Score": 14.8, "Rank": 50 },
+    "2000": { "Score": 20.1, "Rank": 54 }
+  },
+  "Uganda": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  },
+  "Ukraine": {
+    "2021": { "Score": 6.8, "Rank": 30 },
+    "2012": { "Score": 6.9, "Rank": 23 },
+    "2006": { "Score": 7.1, "Rank": 18 },
+    "2000": { "Score": 13.0, "Rank": 32 }
+  },
+  "Uruguay": {
+    "2021": { "Score": 2.5, "Rank": 1 },
+    "2012": { "Score": 5.0, "Rank": 16 },
+    "2006": { "Score": 6.7, "Rank": 16 },
+    "2000": { "Score": 7.4, "Rank": 12 }
+  },
+  "Uzbekistan": {
+    "2021": { "Score": 5.9, "Rank": 22 },
+    "2012": { "Score": 9.5, "Rank": 38 },
+    "2006": { "Score": 16.6, "Rank": 56 },
+    "2000": { "Score": 24.3, "Rank": 62 }
+  },
+  "Venezuela": {
+    "2021": { "Score": 22.2, "Rank": 84 },
+    "2012": { "Score": 7.4, "Rank": 25 },
+    "2006": { "Score": 11.2, "Rank": 31 },
+    "2000": { "Score": 14.6, "Rank": 36 }
+  },
+  "Vietnam": {
+    "2021": { "Score": 13.6, "Rank": 62 },
+    "2012": { "Score": 16.0, "Rank": 64 },
+    "2006": { "Score": 21.8, "Rank": 66 },
+    "2000": { "Score": 26.3, "Rank": 68 }
+  },
+  "Yemen": {
+    "2021": { "Score": 45.1, "Rank": 127 },
+    "2012": { "Score": 38.4, "Rank": 112 },
+    "2006": { "Score": 38.8, "Rank": 103 },
+    "2000": { "Score": 41.0, "Rank": 93 }
+  },
+  "Zambia": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  },
+  "Zimbabwe": {
+    "2021": { "Score": 27.5, "Rank": 103 }
+  }
+}

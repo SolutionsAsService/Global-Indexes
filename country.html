@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Countries | Global Indexes</title>
+  <meta name="description" content="One country's rank, score and history on every index that covers it, with the year and number of countries beside each position.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="countries">
+<main id="main" class="wrap page">
+  <p class="kicker">One country, every index</p>
+  <h1 id="title">Countries</h1>
+  <div class="tools">
+    <div><label for="c">Country</label><input id="c" list="clist" autocomplete="off" placeholder="Type a country"></div>
+    <datalist id="clist"></datalist>
+  </div>
+  <p class="lede" id="intro"></p>
+  <ol class="rows panel" id="list" aria-label="This country on each index"></ol>
+  <p class="fine" id="foot"></p>
+</main>
+<noscript><p class="notice wrap">This page needs JavaScript. The data are plain JSON files listed on <a href="about.html">Sources</a>.</p></noscript>
+<script src="assets/gi.js"></script>
+<script src="assets/country.js"></script>
+</body>
+</html>

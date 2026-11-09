@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rankings | Global Indexes</title>
+  <meta name="description" content="Every country's score and rank on one index in one year, with the biggest movers and the index's source, scale and caveats.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="rankings">
+<main id="main" class="wrap page">
+  <p class="kicker">One index, one year</p>
+  <h1 id="title">Rankings</h1>
+  <div class="tools">
+    <div><label for="ix">Index</label><select id="ix"></select></div>
+    <div><label for="yr">Year</label><select id="yr"></select></div>
+    <div><label for="q">Find a country</label><input id="q" type="search" autocomplete="off" placeholder="Type a name"></div>
+  </div>
+  <div id="warn"></div>
+  <div class="grid2">
+    <section>
+      <p class="fine" id="count" aria-live="polite"></p>
+      <div class="scroll" tabindex="0" role="region" aria-label="Ranking table, scrolls"><table class="rk" id="tbl"><thead><tr><th class="n" scope="col" id="th-rank">Rank</th><th scope="col">Country</th><th class="n" scope="col">Score</th><th scope="col"><span class="sr">Position</span></th></tr></thead><tbody id="rows"></tbody></table></div>
+    </section>
+    <aside>
+      <div class="panel"><h2>About this index</h2><dl class="facts" id="facts"></dl></div>
+      <div class="panel" style="margin-top:14px"><h2 id="mv-h">Biggest movers</h2><p class="fine" id="mv-note"></p><ol class="rows" id="movers"></ol></div>
+    </aside>
+  </div>
+</main>
+<noscript><p class="notice wrap">This page needs JavaScript. The data are plain JSON files listed on <a href="about.html">Sources</a>.</p></noscript>
+<script src="assets/gi.js"></script>
+<script src="assets/rankings.js"></script>
+</body>
+</html>

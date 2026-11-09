@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sources and method | Global Indexes</title>
+  <meta name="description" content="Where each index comes from, what it covers, what was left out and why, and how ranks and positions are computed.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="about">
+<main id="main" class="wrap page prose">
+  <p class="kicker">Sources and method</p>
+  <h1>Sources</h1>
+  <p class="lede">These are published indexes as last recorded in an open archive, not live feeds. The newest data point on this site is from <span data-fig="maxyear">&ndash;</span> and the oldest index ends in <span data-fig="minyear">&ndash;</span>. Nothing here is a current measurement.</p>
+
+  <h2>What is on the site</h2>
+  <div class="scroll" tabindex="0" role="region" aria-label="Table of indexes, scrolls sideways"><table class="rk" id="src"><thead><tr><th scope="col">Index</th><th scope="col">Source</th><th scope="col">Years</th><th scope="col" class="n">Countries (last year)</th><th scope="col">Direction</th></tr></thead><tbody></tbody></table></div>
+  <p class="fine">Each file is <code>{ "Country": { "Year": { "Score": 0, "Rank": 0 } } }</code>, one file per index at the top of the repository, listed in <code>manifest.json</code>.</p>
+
+  <h2>Not "non-economic"</h2>
+  <p>The indexes here measure governance, wellbeing, society and safety, but none is purely free of economics. The Human Development Index includes income per person as one of three parts. The Government Transparency Index measures how fully governments report data, including economic data, to the World Bank. Corruption perceptions come partly from business surveys. Each index's own note on its page says what it includes.</p>
+
+  <h2>What was left out</h2>
+  <p>Fourteen datasets were sought in the archive. Eight are used. Five exist only as empty (0-byte) files: the Economist Intelligence Unit Democracy Index, Varieties of Democracy, the Bertelsmann Transformation Index, Polity 5 and the OECD trust in government series. One, Freedom House's Freedom of the Press, is a three-value category (free, partly free, not free) and not a score, so it cannot be ranked. This is why the democracy and rights coverage is a satisfaction survey and a transparency measure rather than the more common regime indexes.</p>
+  <p>The World Press Freedom Index file that came with this repository is on the Rankings page, marked unverified, and is left out of every cross-index view. See the note on that page.</p>
+
+  <h2>How positions are computed</h2>
+  <ul>
+    <li><strong>Rank</strong> is computed per index and year, among the countries that index covers in that year. 1 is best by the index's own direction. Countries with the same stored score share the lower rank.</li>
+    <li><strong>Position</strong> on the home page and in Compare is a percentile: 100 &times; (n &minus; rank) &divide; (n &minus; 1), where n is the number of countries the index covers that year. 100 is best, 0 is worst.</li>
+    <li><strong>Each index uses its own last year.</strong> The year and n are printed beside every position. Because years and country sets differ, positions on different indexes are not on a common footing, and there is no overall score or average.</li>
+    <li><strong>Not covered</strong> means a country is absent from that index. It does not mean a good or bad result. Hunger, for example, covers 128 countries and many wealthy countries are not among them.</li>
+    <li><strong>Names and territories.</strong> One spelling per country (for example Czechia, Eswatini, North Macedonia, South Korea). Regions, income groups and non-sovereign territories are dropped so they do not sit in a denominator.</li>
+    <li><strong>Agreement</strong> on the Compare page is a Spearman rank correlation over countries both indexes cover. It describes how orderings line up and says nothing about cause.</li>
+  </ul>
+
+  <h2>Rebuild or check the data</h2>
+  <p>The archive is <a href="https://github.com/owid/owid-datasets">Our World in Data's owid-datasets</a>, fetched from its public files.</p>
+  <ul>
+    <li><code>python3 scripts/build-data.py</code> downloads the source files, rebuilds every index file, <code>manifest.json</code> and <code>summary.json</code>, and checks them.</li>
+    <li><code>python3 scripts/build-data.py --check</code> validates the files without the network, and <code>--selftest</code> proves the check fails on a file whose ranks contradict its scores.</li>
+    <li><code>node scripts/check-site.mjs</code> checks every link, every figure printed on the pages and every code path against the data.</li>
+  </ul>
+  <h2>Mistakes</h2>
+  <p>If a figure is wrong, <a href="https://github.com/SolutionsAsService/Global-Indexes/issues">open an issue</a> with the index, country and year. Licence: MIT, for the code and for the files as compiled here; the underlying indexes belong to their publishers and are cited above.</p>
+</main>
+<noscript><p class="notice wrap">The table of indexes is built from <a href="manifest.json">manifest.json</a> with JavaScript.</p></noscript>
+<script src="assets/gi.js"></script>
+<script src="assets/about.js"></script>
+</body>
+</html>

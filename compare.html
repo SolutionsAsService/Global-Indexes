@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compare two indexes | Global Indexes</title>
+  <meta name="description" content="Plot every country on two indexes at once and see how closely their orderings agree, with the years and number of countries printed.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="compare">
+<main id="main" class="wrap page">
+  <p class="kicker">Two indexes, every shared country</p>
+  <h1>Compare</h1>
+  <div class="tools">
+    <div><label for="x">Across</label><select id="x"></select></div>
+    <div><label for="y">Up</label><select id="y"></select></div>
+    <div><label for="c">Highlight</label><input id="c" list="clist" autocomplete="off" placeholder="Optional country"></div>
+    <datalist id="clist"></datalist>
+  </div>
+  <div class="grid2">
+    <div class="panel chart"><svg id="sc" role="img" aria-label="Scatter of countries on two indexes"></svg><p class="fine" id="axes"></p></div>
+    <aside>
+      <div class="panel"><h2>How closely they agree</h2><p id="stat" aria-live="polite"></p><p class="fine">Position runs from 0 (worst) to 100 (best) for each index, so that up and right are always better. The agreement figure is a rank correlation (Spearman) over the countries both indexes cover. It describes how the two orderings line up; it does not say that one thing causes another.</p></div>
+      <div class="panel" style="margin-top:14px"><h2>Furthest apart</h2><p class="fine">Countries whose positions on the two indexes differ most.</p><ol class="rows" id="far"></ol></div>
+    </aside>
+  </div>
+</main>
+<noscript><p class="notice wrap">This page needs JavaScript. The data are plain JSON files listed on <a href="about.html">Sources</a>.</p></noscript>
+<script src="assets/gi.js"></script>
+<script src="assets/compare.js"></script>
+</body>
+</html>

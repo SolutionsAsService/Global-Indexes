@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Indexes: one country, eight yardsticks</title>
+  <meta name="description" content="Pick a country and see where it stands on eight published indexes of governance, wellbeing, society and safety, with the year, score and number of countries printed beside every position.">
+  <meta property="og:title" content="Global Indexes">
+  <meta property="og:description" content="One country, eight yardsticks: corruption, human development, gender inequality, hunger, transparency, healthy life, violence and satisfaction with democracy.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="home">
+<main id="main" class="wrap hero">
+  <div class="hero-top">
+    <h1>Global <span class="brk">Indexes</span></h1>
+    <p class="lede"><span data-fig="indexes">&ndash;</span> published indexes, each ranking between <span data-fig="minc">&ndash;</span> and <span data-fig="maxc">&ndash;</span> countries on one thing. Every line is a country. The top of an axis is the best place to be on that index. Pick a country and follow it across.</p>
+  </div>
+
+  <div class="stage" id="stage">
+    <div class="picker">
+      <div class="grow"><label for="c1">Country</label><input id="c1" list="clist" autocomplete="off" placeholder="Type a country"></div>
+      <datalist id="clist"></datalist>
+      <button type="button" class="btn ghost" id="rand">Random</button>
+    </div>
+    <div class="tipwrap"><div id="tip" class="tip" hidden></div><svg id="pc" role="group" aria-label="A parallel chart. Each index is a vertical axis from the worst rank at the bottom to the best at the top, and each country is a line across the axes."></svg></div>
+    <p class="readout" id="readout" aria-live="polite"></p>
+    <div class="picker"><div class="grow"><label for="c2">Compare with (shown dashed)</label><input id="c2" list="clist" autocomplete="off" placeholder="Optional"></div></div>
+    <p class="fine">A position is the country's rank within that index in the index's last published year, drawn from worst (bottom) to best (top). Indexes cover different countries and years, so a line breaks where a country is not covered, and there is no overall score. <a href="about.html">Method and sources</a></p>
+    <ul class="sr" id="sr" aria-label="The chart as a list"></ul>
+  </div>
+
+  <ul class="tiles" id="tiles" aria-label="The indexes"></ul>
+</main>
+<noscript><p class="notice wrap">The chart needs JavaScript. The data are plain JSON files listed on <a href="about.html">Sources</a>.</p></noscript>
+<script src="assets/gi.js"></script>
+<script src="assets/home.js"></script>
+</body>
+</html>
